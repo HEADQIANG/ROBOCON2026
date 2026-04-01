@@ -8,9 +8,9 @@ MuJoCo simulation environment for the 25th National College Student Robot Compet
 
 
 ## Quick Start
-
+ 
 ### Requirements
-- Python >= 3.7
+- Python >= 3.12
 - MuJoCo Physics Engine
 
 ### Install Dependencies
@@ -63,7 +63,7 @@ Before running any robot control program, please install the necessary dependenc
 
 ```bash
 # Install ONNX runtime and joystick support
-pip install onnxruntime pygame etils
+pip install onnxruntime pygame etils numpy==1.26.4 pyyaml opencv-python
 
 # (Optional) Install ROS2 support for topic publishing
 # Please refer to ROS2 official documentation to install the corresponding version
@@ -203,6 +203,8 @@ A: Please ensure the joystick is connected and `pygame` is installed. Run `pytho
 
 **Q: How to customize robot models?**  
 A: Modify the corresponding XML files in the `models/mjcf/` directory and retrain the policy model.
+
+
 
 ## File Structure
 ```
