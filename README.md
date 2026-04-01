@@ -10,7 +10,7 @@ MuJoCo simulation environment for the 25th National College Student Robot Compet
 ## Quick Start
  
 ### Requirements
-- Python >= 3.X
+- Python >= 3.10
 - MuJoCo Physics Engine
 
 ### Install Dependencies
